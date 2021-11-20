@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="f.css">
+<title>Feedback</title>
+</head>
+
+<body>
+    <section></section>
+    <div class="container">
+        <form onsubmit="fun()">
+            <h2>Give Your Feedback</h2>
+            <div class="id">
+                <input type="text" name="text" id="" placeholder="Full Name" required>
+                <i class="glyphicon glyphicon-user"></i>
+            </div>
+            <div class="id">
+                <input type="email" name="e_mail" id="" placeholder="Email Address" required>
+                <i class="glyphicon glyphicon-envelope"></i>
+            </div>
+            <textarea name="opinion" id="" cols="24" rows="5" placeholder="share your opinions here..."
+                required></textarea>
+            <button>Submit</button>
+            <a href="index.html" style="text-decoration: none; color:grey">Back to homepage</a>
+        </form>
+    </div>
+    <script>
+        function fun() {
+            alert("Thank you for your feedback");
+        }
+    </script>
+</body>
+
+</html>
